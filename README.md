@@ -9,15 +9,15 @@ The objective of this project is to design down to the layout level an array mul
 ![image](https://github.com/BassantAhmedElbakry/Modular-Array-for-Multiplication-and-Division/assets/104600321/34456e07-19bb-4640-af9f-5ea5dc45cb47)
 ### Basic concept that we use in our design: 
 Multiplication and division needs full adder cell as a basic concept so their basic unit cell can be merged in one basic cell let’s define operation used FA in multiplication and division: 
-1- Multiplication : 
-Out internal= xi yj +(previous output internal) +(carray out from the previous row previous column(CR-1,C-1))    
-➔ As in block diagram used for shift right multiplication. 
-2- Division : 
-Out internal= xor(xi, Quationt) +(previous output internal) +(carray out from the previous column in the same row(CR,C-1)). 
-➔ As in block diagram used for non restoring division.
-So the basic cell will need: 
-1- FA 
-2- MUX (AND GATE , XOR GATE) 
-3- MUX(CR-1,C-1 ,CR,C-1) 
-4- AND 
-5- XOR 
+<br /> 1- Multiplication : 
+<br /> Out internal= xi yj +(previous output internal) +(carray out from the previous row previous column(CR-1,C-1))    
+<br /> ➔ As in block diagram used for shift right multiplication. 
+<br /> 2- Division : 
+<br /> Out internal= xor(xi, Quationt) +(previous output internal) +(carray out from the previous column in the same row(CR,C-1)). 
+<br /> ➔ As in block diagram used for non restoring division.
+<br /> So the basic cell will need: 
+<br /> 1- FA 
+<br /> 2- MUX (AND GATE , XOR GATE) 
+<br /> 3- MUX(CR-1,C-1 ,CR,C-1) 
+<br /> 4- AND 
+<br /> 5- XOR 
